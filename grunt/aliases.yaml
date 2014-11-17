@@ -1,14 +1,15 @@
 default:
-  - 'watch'
+  - 'clean'
+  - 'jshint'
+  - 'jasmine'
   - 'concat'
+  - 'uglify'
   - 'sass'
 
 test:
   - 'jasmine'
   - 'jshint'
 
-build:
-  - 'jshint'
-  - 'jasmine'
-  - 'concat'
-  - 'uglify'
+dev:
+  - 'http-server'
+  - 'watch'
