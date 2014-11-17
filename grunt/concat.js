@@ -7,6 +7,6 @@ module.exports = {
       'js/src/*.js',
       'js/bookends/after.js'
     ],
-    dest: 'js/dist/<%= pkg.name %>.js'
+    dest: 'js/dist/<%= package.name %>.js'
   }
 };
