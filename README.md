@@ -1,19 +1,19 @@
 Carabiner
-========
-
+=========
 A grunt setup for clipping your web projects together.
 
-Setup
+Usage
 -----
-1. Clone
-2. Edit package.json to have your projects name in it
-3. Run `npm install`
+1. Clone the project
+2. Run `npm install`
 
 Tasks
 -----
-`grunt` - build, lint, test and package your code
-`grunt clean` - delete the contents of the `js/dist` directory
-`grunt dev` - host the current directory on `localhost:8080` and watch the local files, recompiling when files are saved
+|   Command  |                                         Action                                        |
+|:----------:|:-------------------------------------------------------------------------------------:|
+| grunt      | Full build: run tests, lint, concatenate and minify for distribution                  |
+| grunt test | Run jamine and jshint                                                                 |
+| grunt dev  | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
 
 Config
 ------
