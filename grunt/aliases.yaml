@@ -5,6 +5,7 @@ default:
   - 'concat'
   - 'uglify'
   - 'sass'
+  - 'imagemin'
 
 test:
   - 'jasmine'
