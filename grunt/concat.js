@@ -3,9 +3,9 @@ module.exports = {
     src: [
       'js/lib/jquery.js',
       'js/lib/*.js',
-      'js/src/before.js',
+      'js/bookends/before.js',
       'js/src/*.js',
-      'js/src/after.js'
+      'js/bookends/after.js'
     ],
     dest: 'js/dist/<%= pkg.name %>.js'
   }
