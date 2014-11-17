@@ -1,5 +1,8 @@
 module.exports = {
   js: [
-    'js/dist/*.js'
+    'dist/*.js'
+  ],
+  css: [
+    'dist/*.css'
   ]
 };

@@ -8,7 +8,7 @@ module.exports = {
       expand: true,
       cwd: 'images/',
       src: ['**/*.{png,jpg,gif}'],
-      dest: 'dist/'
+      dest: 'dist/images/'
     }]
   }
 };
