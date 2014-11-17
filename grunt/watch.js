@@ -1,12 +1,12 @@
 module.exports = {
   js:{
-    files: ['js/src/*.js'],
+    files: ['js/**/*.js'],
     tasks: [
       'concat'
     ]
   },
   css: {
-    files: 'css/src/*.scss',
+    files: 'css/**/*.scss',
     tasks: ['sass'],
     options: {
       livereload: true,
