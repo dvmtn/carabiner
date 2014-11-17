@@ -1,0 +1,14 @@
+default:
+  - 'watch'
+  - 'concat'
+  - 'sass'
+
+test:
+  - 'jasmine'
+  - 'jshint'
+
+build:
+  - 'jshint'
+  - 'jasmine'
+  - 'concat'
+  - 'uglify'
