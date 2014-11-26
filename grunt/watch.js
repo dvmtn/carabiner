@@ -12,5 +12,12 @@ module.exports = {
     options: {
       livereload: true,
     }
+  },
+  images: {
+    files: ['images/**/*.{png,jpg,gif}'],
+    tasks: ['imagemin'],
+    options: {
+      spawn: false,
+    }
   }
 };
