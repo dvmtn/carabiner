@@ -5,6 +5,8 @@ default:
   - 'concat'
   - 'uglify'
   - 'sass'
+  - 'copy:html'
+  - 'haml'
   - 'imagemin'
 
 test:

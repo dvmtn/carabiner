@@ -23,5 +23,9 @@ module.exports = {
   haml: {
     files: ['pages/**/*.haml'],
     tasks: ['haml']
+  },
+  html: {
+    files: ['pages/**/*.html'],
+    tasks: ['copy:html']
   }
 };
