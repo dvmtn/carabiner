@@ -1,6 +1,6 @@
 module.exports = {
   'dev': {
-    root: '.',
+    root: 'dist/',
     port: 8080,
     host: "localhost",
     showDir : true,

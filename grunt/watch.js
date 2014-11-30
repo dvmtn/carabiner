@@ -19,5 +19,9 @@ module.exports = {
     options: {
       spawn: false,
     }
+  },
+  haml: {
+    files: ['pages/**/*.haml'],
+    tasks: ['haml']
   }
 };
