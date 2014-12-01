@@ -3,7 +3,7 @@ module.exports = {
     files: [
       {
         expand: true,
-        cwd: 'pages/',
+        cwd: 'html/',
         src: ['**/*.html'],
         dest: 'dist/'
       }

@@ -11,7 +11,7 @@ Installation
 Development Groove
 ------------------
 1. Run `grunt dev`
-2. Write some html or haml into `pages/` and save it
+2. Write some html or haml into `html/` and save it
 3. See your awesome page at `localhost:8080`
 4. Add js and css or sass in the js and css folders
 5. Notice how sass, css, js, html, haml, etc. are all compiled into /dist each time you save and think how awesome this is!

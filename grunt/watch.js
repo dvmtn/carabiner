@@ -21,11 +21,11 @@ module.exports = {
     }
   },
   haml: {
-    files: ['pages/**/*.haml'],
+    files: ['html/**/*.haml'],
     tasks: ['haml']
   },
   html: {
-    files: ['pages/**/*.html'],
+    files: ['html/**/*.html'],
     tasks: ['copy:html']
   }
 };

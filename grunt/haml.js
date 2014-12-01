@@ -3,7 +3,7 @@ module.exports = {
     'files': [
       {
         expand: true,
-        cwd: 'pages/',
+        cwd: 'html/',
         src: ['**/*.haml'],
         dest: 'dist/',
         ext: '.html',
