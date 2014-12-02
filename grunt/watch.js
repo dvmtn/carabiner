@@ -1,10 +1,14 @@
 module.exports = {
   js:{
-    files: ['js/**/*.js'],
+    files: ['js/{src,lib}/**/*.js'],
     tasks: [
       'concat',
       'uglify'
     ]
+  },
+  jasmine:{
+    file: ['js/test/**/*.js'],
+    tasks: [ 'jasmine' ]
   },
   css: {
     files: ['css/**/*.scss'],
