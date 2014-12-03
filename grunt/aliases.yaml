@@ -8,6 +8,7 @@ default:
   - 'jshint'
   - 'jasmine'
   - 'imagemin'
+  - 'copy:svg'
 
 test:
   - 'jasmine'
