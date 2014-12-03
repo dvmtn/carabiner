@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   jasmine:{
-    file: ['js/test/**/*.js'],
+    files: ['js/test/**/*.js'],
     tasks: [ 'jasmine' ]
   },
   css: {
