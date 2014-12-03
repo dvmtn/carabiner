@@ -1,4 +1,10 @@
 module.exports = {
+  dist:{
+    files: 'dist/**/*',
+    options: {
+      livereload: true
+    }
+  },
   js:{
     files: ['js/{src,lib}/**/*.js'],
     tasks: [
@@ -13,9 +19,6 @@ module.exports = {
   css: {
     files: ['css/**/*.scss'],
     tasks: ['sass'],
-    options: {
-      livereload: true,
-    }
   },
   images: {
     files: ['images/**/*.{png,jpg,gif}'],
