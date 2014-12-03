@@ -18,6 +18,6 @@ dev:
   - 'http-server'
   - 'watch'
 
-gh-deploy:
+deploy:
   - 'default'
   - 'gh-pages'
