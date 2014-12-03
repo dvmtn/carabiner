@@ -24,6 +24,10 @@ module.exports = {
       spawn: false,
     }
   },
+  svg: {
+    files: ['images/**/*.svg'],
+    tasks: ['copy:svg'],
+  },
   haml: {
     files: ['html/**/*.haml'],
     tasks: ['haml']

@@ -8,5 +8,15 @@ module.exports = {
         dest: 'dist/'
       }
     ]
+  },
+  svg: {
+    files: [
+      {
+        expand: true,
+        cwd: 'images/',
+        src: ['**/*.svg'],
+        dest: 'dist/images/'
+      }
+    ]
   }
 };
