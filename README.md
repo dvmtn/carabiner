@@ -21,11 +21,12 @@ Development Groove
 
 Tasks
 -----
-|   Command  |                                         Action                                        |
-|:----------:|:-------------------------------------------------------------------------------------:|
-| grunt      | Full build: run tests, lint, concatenate and minify for distribution                  |
-| grunt test | Run jamine and jshint                                                                 |
-| grunt dev  | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
+|   Command        |                                         Action                                        |
+|:----------------:|:-------------------------------------------------------------------------------------:|
+| grunt            | Full build: run tests, lint, concatenate and minify for distribution                  |
+| grunt dev        | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
+| grunt test       | Run jamine and jshint                                                                 |
+| grunt gh-deploy  | Run the default task and deploy to `origin/gh-pages`                                  |
 
 Config
 ------

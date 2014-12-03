@@ -17,3 +17,7 @@ test:
 dev:
   - 'http-server'
   - 'watch'
+
+gh-deploy:
+  - 'default'
+  - 'gh-pages'
