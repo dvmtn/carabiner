@@ -5,7 +5,7 @@ A grunt setup for clipping your web projects together.
 Installation
 ------------
 0. If you haven't used grunt-source before, install [grunt-source](https://www.npmjs.org/package/grunt-source) with `npm install -g grunt-source`
-1. Add a copy of the [example Gruntsource.json] into your project
+1. Add a copy of the [example Gruntsource.json](https://github.com/dvmtn/carabiner/blob/master/Gruntsource.json.example) into your project
 2. Run `grunt-source dev`
 3. There is no step 3, get developing!
 
