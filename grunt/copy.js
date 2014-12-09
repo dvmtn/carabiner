@@ -19,10 +19,12 @@ module.exports = {
       }
     ]
   },
-  cname: {
+  data: {
     files: [
       {
-        src: ['CNAME'],
+        expand: true,
+        cwd: 'data/',
+        src: ['**/*'],
         dest: 'dist/'
       }
     ]

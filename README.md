@@ -20,13 +20,17 @@ Development Groove
 3. See your awesome page at `localhost:8080`
 4. Add js and css or sass in the js and css folders
 5. Notice how sass, css, js, html, haml, etc. are all compiled into /dist each time you save and think how awesome this is!
-6. Run `grunt-source` to do one last test, cleanup and build before sending your exceptional files to your server
+6. Throw some static json or CNAME files in `data/` so they are copied straight into `dist/` without processing.
+7. Run `grunt-source deploy` to recompile everything and throw it to your deployment branch and remote for the world to see!
 
+Super Important Things
+----------------------
+- `dist` is intended to be cleaned (as in completely wiped) so files shouldn't be added directly to it. Add them to `data` instead to have them appear in the top level of `dist`.
 
 Tasks
 -----
-|   Command          |                                         Action                                        |
-|:------------------:|:-------------------------------------------------------------------------------------:|
+|   Command                 |                                         Action                                        |
+|:-------------------------:|:-------------------------------------------------------------------------------------:|
 | `grunt-source`            | Full build: run tests, lint, concatenate and minify for distribution                  |
 | `grunt-source dev`        | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
 | `grunt-source test`       | Run jamine and jshint                                                                 |

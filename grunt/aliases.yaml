@@ -1,5 +1,5 @@
 default:
-  - 'clean'
+  - 'clean:all'
   - 'concat'
   - 'uglify'
   - 'sass'
@@ -9,7 +9,7 @@ default:
   - 'jasmine'
   - 'imagemin'
   - 'copy:svg'
-  - 'copy:cname'
+  - 'copy:data'
 
 test:
   - 'jasmine'

@@ -38,5 +38,9 @@ module.exports = {
   html: {
     files: ['html/**/*.html'],
     tasks: ['copy:html']
+  },
+  data: {
+    files: ['data/**/*'],
+    tasks: ['copy:data']
   }
 };
