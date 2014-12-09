@@ -4,8 +4,9 @@ A grunt setup for clipping your web projects together.
 
 Installation
 ------------
-1. If you haven't used grunt-source before, install [grunt-source](https://www.npmjs.org/package/grunt-source) with `npm install -g grunt-source`
-2. Add a copy of the [example Gruntsource.json](https://github.com/dvmtn/carabiner/blob/master/Gruntsource.json.example) into your project
+0. If you haven't used grunt-source before, install [grunt-source](https://www.npmjs.org/package/grunt-source) with `npm install -g grunt-source`
+1. Add a copy of the [example Gruntsource.json](https://github.com/dvmtn/carabiner/blob/master/Gruntsource.json.example) into your project
+2. Run `grunt-source init` to populate example files
 3. Run `grunt-source dev`
 4. There is no step 4, get developing!
 
@@ -23,10 +24,10 @@ Tasks
 -----
 |   Command          |                                         Action                                        |
 |:------------------:|:-------------------------------------------------------------------------------------:|
-| `grunt`            | Full build: run tests, lint, concatenate and minify for distribution                  |
-| `grunt dev`        | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
-| `grunt test`       | Run jamine and jshint                                                                 |
-| `grunt deploy`     | Run the default task and deploy to `origin/gh-pages`                                  |
+| `grunt-source`            | Full build: run tests, lint, concatenate and minify for distribution                  |
+| `grunt-source dev`        | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
+| `grunt-source test`       | Run jamine and jshint                                                                 |
+| `grunt-source deploy`     | Run the default task and deploy to `origin/gh-pages`                                  |
 
 Config
 ------
