@@ -9,6 +9,7 @@ default:
   - 'jasmine'
   - 'imagemin'
   - 'copy:svg'
+  - 'copy:cname'
 
 test:
   - 'jasmine'
