@@ -18,5 +18,13 @@ module.exports = {
         dest: 'dist/images/'
       }
     ]
+  },
+  cname: {
+    files: [
+      {
+        src: ['CNAME'],
+        dest: 'dist/'
+      }
+    ]
   }
 };
