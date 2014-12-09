@@ -16,6 +16,7 @@ test:
   - 'jshint'
 
 dev:
+  - 'default'
   - 'http-server'
   - 'watch'
 
