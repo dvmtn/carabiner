@@ -1,7 +1,7 @@
 module.exports = {
   dist: {
     files: {
-      'dist/project.min.css' : 'css/src/base.scss'
+      'dist/<%= pkg.name %>.min.css' : 'css/src/base.scss'
     }
   }
 };
