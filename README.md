@@ -2,13 +2,12 @@ Carabiner
 =========
 A grunt setup for clipping your web projects together.
 
-Installation
-------------
+Installation & Project Setup
+----------------------------
 0. If you haven't used grunt-source before, install [grunt-source](https://www.npmjs.org/package/grunt-source) with `npm install -g grunt-source`
-1. Add a copy of the [example Gruntsource.json](https://github.com/dvmtn/carabiner/blob/master/Gruntsource.json.example) into your project
+1. Run `curl https://raw.githubusercontent.com/dvmtn/carabiner/master/Gruntsource.json.example > Gruntsource.json` to add a copy of the [Carabiner Gruntsource.json](https://github.com/dvmtn/carabiner/blob/master/Gruntsource.json.example) into your project
 2. Run `grunt-source init` to populate example files
-3. Run `grunt-source dev`
-4. There is no step 4, get developing!
+3. There is no step 3, get developing!
 
 Development Groove
 ------------------
