@@ -2,7 +2,7 @@ module.exports = {
   server: {
     options: {
       title: 'Site served',
-      message: 'Site served on <%= grunt.config.get("http-server").dev.host %>:<%= grunt.config.get("http-server").dev.port %>'
+      message: 'Site served on port <%= grunt.config.get("http-server").dev.port %>'
     }
   },
   watch: {
