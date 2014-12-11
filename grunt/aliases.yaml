@@ -18,8 +18,10 @@ test:
 dev:
   - 'default'
   - 'http-server'
+  - 'notify:server'
   - 'watch'
 
 deploy:
   - 'default'
   - 'gh-pages'
+  - 'notify:deploy'

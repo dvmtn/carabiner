@@ -1,8 +1,9 @@
 module.exports = {
   dist:{
     files: 'dist/**/*',
+    tasks: ['notify:watch'],
     options: {
-      livereload: true
+      livereload: true,
     }
   },
   js:{

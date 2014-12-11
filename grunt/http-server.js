@@ -1,5 +1,5 @@
 module.exports = {
-  'dev': {
+  dev: {
     root: 'dist/',
     port: 8080,
     host: "localhost",
