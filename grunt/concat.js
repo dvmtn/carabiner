@@ -5,6 +5,7 @@ module.exports = {
       'js/lib/**/*.js',
       'js/bookends/before.js',
       'js/src/**/*.js',
+      '!js/bookends/after.js',
       'js/bookends/after.js'
     ],
     dest: 'dist/<%= pkg.name %>.js'
