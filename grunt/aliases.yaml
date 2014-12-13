@@ -5,6 +5,7 @@ default:
   - 'sass'
   - 'copy:html'
   - 'haml'
+  - 'jade'
   - 'jshint'
   - 'jasmine'
   - 'imagemin'

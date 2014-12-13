@@ -38,6 +38,11 @@ module.exports = {
     tasks: ['haml'],
     options: { spawn: false }
   },
+  jade: {
+    files: ['html/**/*.jade'],
+    tasks: ['jade'],
+    options: { spawn: false }
+  },
   html: {
     files: ['html/**/*.html'],
     tasks: ['copy:html']
