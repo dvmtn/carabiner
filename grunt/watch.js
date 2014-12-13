@@ -4,6 +4,7 @@ module.exports = {
     tasks: ['notify:watch'],
     options: {
       livereload: true,
+      spawn: false
     }
   },
   js:{
@@ -11,22 +12,22 @@ module.exports = {
     tasks: [
       'concat',
       'uglify'
-    ]
-  },
+    ],
+    options: { spawn: false }
+ },
   jasmine:{
     files: ['js/test/**/*.js'],
     tasks: [ 'jasmine' ]
   },
-  css: {
+  sass: {
     files: ['css/**/*.scss'],
     tasks: ['sass'],
+    options: { spawn: false }
   },
   images: {
     files: ['images/**/*.{png,jpg,gif}'],
     tasks: ['imagemin'],
-    options: {
-      spawn: false,
-    }
+    options: { spawn: false }
   },
   svg: {
     files: ['images/**/*.svg'],
@@ -34,7 +35,8 @@ module.exports = {
   },
   haml: {
     files: ['html/**/*.haml'],
-    tasks: ['haml']
+    tasks: ['haml'],
+    options: { spawn: false }
   },
   html: {
     files: ['html/**/*.html'],
