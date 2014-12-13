@@ -4,7 +4,7 @@ module.exports = {
       {
         expand: true,
         cwd: 'html/',
-        src: ['**/*.jade'],
+        src: ['**/*.jade', '!partials/**/*.jade'],
         dest: 'dist/',
         ext: '.html',
         extDot: 'first'
