@@ -1,6 +1,7 @@
 module.exports = {
   options: {
-    base: 'dist'
+    base: 'dist',
+    message: 'Auto-generated deployment commit'
   },
   src: ['**']
 };
