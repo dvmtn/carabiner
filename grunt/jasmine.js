@@ -1,5 +1,5 @@
 module.exports = {
-  src: 'dist/package.js',
+  src: 'dist/<%= pkg.name %>.js',
   options:{
     specs: 'js/test/**/*'
   }
