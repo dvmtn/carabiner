@@ -8,7 +8,7 @@ module.exports = {
     }
   },
   js:{
-    files: ['js/{src,lib}/**/*.js'],
+    files: ['js/{src,lib,bookends}/**/*.js'],
     tasks: [
       'concat',
       'uglify'
