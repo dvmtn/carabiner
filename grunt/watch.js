@@ -33,6 +33,10 @@ module.exports = {
     files: ['images/**/*.svg'],
     tasks: ['svgmin'],
   },
+  icons: {
+    files: ['images/favicon.*'],
+    tasks: ['favicons']
+  },
   haml: {
     files: ['html/**/*.haml'],
     tasks: ['haml'],

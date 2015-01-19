@@ -8,6 +8,7 @@ default:
   - 'jade'
   - 'jshint'
   - 'jasmine'
+  - 'favicons'
   - 'imagemin'
   - 'svgmin'
   - 'copy:data'
