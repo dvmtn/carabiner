@@ -26,7 +26,7 @@ Development Groove
 Super Important Things
 ----------------------
 - `dist` is intended to be cleaned (as in completely wiped) so files shouldn't be added directly to it. Add them to `data` instead to have them appear in the top level of `dist`.
-- Support for `haml` will eventually be dropped in favour of Jade because of the better partial (includes) rednering options.
+- Support for `haml` will eventually be dropped in favour of Jade because of the better partial (includes) rendering options.
 
 Tasks
 -----
@@ -34,7 +34,7 @@ Tasks
 |:-------------------------:|:-------------------------------------------------------------------------------------:|
 | `grunt-source`            | Full build: run tests, lint, concatenate and minify for distribution                  |
 | `grunt-source dev`        | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |
-| `grunt-source test`       | Run jamine and jshint                                                                 |
+| `grunt-source test`       | Run jasmine and jshint                                                                |
 | `grunt-source deploy`     | Run the default task and deploy to `origin/gh-pages`                                  |
 
 Config
