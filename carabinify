@@ -1,0 +1,41 @@
+#!/bin/bash
+
+function log_step(){
+  echo $* >&2
+}
+
+function fail_gruntsource(){
+  log_step "CARABINER FAILED"
+  log_step "Could not install Gruntsource. Do you have npm installed and on the PATH?"
+  exit 1
+}
+
+function install_grunt_source(){
+  echo "Installing Gruntsource" >&2
+  npm install -g grunt-source || fail_gruntsource
+}
+
+function create_gruntsource_file(){
+  log_step "Setting up Carabiner"
+  curl https://raw.githubusercontent.com/dvmtn/carabiner/master/Gruntsource.json.example > Gruntsource.json
+}
+
+function run_gruntsource_init(){
+  log_step "Initialising project"
+  grunt-source init
+}
+
+function complete_message(){
+  log_step "Setup complete!"
+  log_step 'Run `grunt-source dev` to begin developing'
+  log_step 'Have fun!'
+}
+
+function main(){
+  [[ `which grunt-source` ]] || install_grunt_source
+  create_gruntsource_file
+  run_gruntsource_init
+  complete_message
+}
+
+main
