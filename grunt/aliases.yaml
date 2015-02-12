@@ -9,7 +9,7 @@ default:
   - 'jshint'
   - 'jasmine'
   - 'imagemin'
-  - 'copy:svg'
+  - 'svgmin'
   - 'copy:data'
   - 'manifest'
 

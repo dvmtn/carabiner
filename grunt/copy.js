@@ -9,16 +9,6 @@ module.exports = {
       }
     ]
   },
-  svg: {
-    files: [
-      {
-        expand: true,
-        cwd: 'images/',
-        src: ['**/*.svg'],
-        dest: 'dist/images/'
-      }
-    ]
-  },
   data: {
     files: [
       {
