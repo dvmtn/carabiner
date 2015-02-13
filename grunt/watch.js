@@ -31,7 +31,7 @@ module.exports = {
   },
   svg: {
     files: ['images/**/*.svg'],
-    tasks: ['copy:svg'],
+    tasks: ['svgmin'],
   },
   haml: {
     files: ['html/**/*.haml'],
