@@ -1,8 +1,12 @@
 {
   "name": "Carabiner",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A handy way to clip your simple web projects together",
   "homepage": "https://github.com/dvmtn/carabiner",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/dvmtn/carabiner.git"
+  },
   "bugs": "https://github.com/dvmtn/carabiner/issues",
   "devDependencies": {
     "grunt": "~0.4.5",
