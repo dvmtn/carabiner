@@ -1,5 +1,6 @@
 module.exports = {
   options: {
+    trueColor: true,
     androidHomescreen: true,
     firefox: true,
     regular: true,
