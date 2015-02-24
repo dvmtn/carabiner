@@ -27,3 +27,6 @@ deploy:
   - 'default'
   - 'gh-pages'
   - 'notify:deploy'
+
+tasks:
+  - 'availabletasks'
