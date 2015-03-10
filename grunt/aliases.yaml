@@ -1,4 +1,8 @@
 default:
+  - 'build'
+  - 'test'
+
+build:
   - 'clean:all'
   - 'concat'
   - 'uglify'
@@ -6,8 +10,6 @@ default:
   - 'copy:html'
   - 'haml'
   - 'jade'
-  - 'jshint'
-  - 'jasmine'
   - 'imagemin'
   - 'svgmin'
   - 'copy:data'
@@ -27,6 +29,7 @@ deploy:
   - 'default'
   - 'gh-pages'
   - 'notify:deploy'
+  - 'gh-pages-clean'
 
 tasks:
   - 'availabletasks'
