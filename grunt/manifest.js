@@ -14,7 +14,12 @@ module.exports = {
     src: [
       '**/*.html',
       '**/*.min.js',
-      '**/*.css'
+      '**/*.css',
+      '**/*.json',
+      '**/*.jpg',
+      '**/*.png',
+      '**/*.svg',
+      '**/*'
     ],
     dest: 'dist/manifest.appcache'
   }
