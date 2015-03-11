@@ -12,8 +12,8 @@ build:
   - 'copy:html'
   - 'imagemin'
   - 'svgmin'
-  - 'manifest'
   - 'copy:data'
+  - 'manifest'
 
 test:
   - 'jasmine'

@@ -2,9 +2,6 @@ module.exports = {
   generate: {
     options: {
       basePath: 'dist',
-      network: ['http://*', 'https://*'],
-      fallback: ['/ /index.html'],
-      exclude: ['js/jquery.min.js'],
       preferOnline: true,
       verbose: true,
       timestamp: true,
@@ -13,21 +10,10 @@ module.exports = {
     },
     src: [
       '**/*.html',
-      '**/*.mst',
-      '**/*.min.js',
-      '**/*.min.css',
-      '**/*.min.css.map',
+      '**/*.js',
       '**/*.css',
-      '**/*.json',
-      '**/*.xml',
-      '**/*.eot',
-      '**/*.ttf',
-      '**/*.woff',
-      '**/*.woff2',
-      '**/*.jpg',
-      '**/*.png',
-      '**/*.ico',
-      '**/*.svg'
+      '**/*.*',
+      'CNAME'
     ],
     dest: 'dist/manifest.appcache'
   }
