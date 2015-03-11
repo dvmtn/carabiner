@@ -12,8 +12,14 @@ module.exports = {
       '**/*.html',
       '**/*.js',
       '**/*.css',
+      '**/*.css.map',
+      '**/*.json',
+      '**/*.jpg',
+      '**/*.png',
+      '**/*.gif',
+      '**/*.svg',
       '**/*.*',
-      'CNAME'
+      '!**/*.appcache'
     ],
     dest: 'dist/manifest.appcache'
   }
