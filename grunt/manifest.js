@@ -3,7 +3,7 @@ module.exports = {
     options: {
       basePath: 'dist',
       network: ['http://*', 'https://*'],
-      fallback: ['/ /offline.html'],
+      fallback: ['/ /index.html'],
       exclude: ['js/jquery.min.js'],
       preferOnline: true,
       verbose: true,
@@ -13,13 +13,21 @@ module.exports = {
     },
     src: [
       '**/*.html',
+      '**/*.mst',
       '**/*.min.js',
+      '**/*.min.css',
+      '**/*.min.css.map',
       '**/*.css',
       '**/*.json',
+      '**/*.xml',
+      '**/*.eot',
+      '**/*.ttf',
+      '**/*.woff',
+      '**/*.woff2',
       '**/*.jpg',
       '**/*.png',
-      '**/*.svg',
-      '**/*'
+      '**/*.ico',
+      '**/*.svg'
     ],
     dest: 'dist/manifest.appcache'
   }
