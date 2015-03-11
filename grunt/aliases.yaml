@@ -7,13 +7,13 @@ build:
   - 'concat'
   - 'uglify'
   - 'sass'
-  - 'copy:html'
   - 'haml'
   - 'jade'
+  - 'copy:html'
   - 'imagemin'
   - 'svgmin'
-  - 'copy:data'
   - 'manifest'
+  - 'copy:data'
 
 test:
   - 'jasmine'
