@@ -2,8 +2,15 @@ Carabiner
 =========
 A grunt setup for clipping your web projects together.
 
-Installation & Project Setup
-----------------------------
+Installation
+------------
+1. Run the carabinify script in the root folder. Optionally, call it with the desired project name:
+```bash
+  curl https://raw.githubusercontent.com/dvmtn/carabiner/master/carabinify | bash /dev/stdin my_project_name
+```
+
+Manual Installation
+-------------------
 1. If you haven't used grunt-source before, install [grunt-source](https://www.npmjs.org/package/grunt-source) with `npm install -g grunt-source`
 2. Add the  [Carabiner Gruntsource.json](https://github.com/dvmtn/carabiner/blob/master/Gruntsource.json.example) to your project with:
 
