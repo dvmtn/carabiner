@@ -11,7 +11,7 @@ function fail_gruntsource(){
 }
 
 function install_grunt_source(){
-  echo "Installing Gruntsource" >&2
+  log_step "Installing Gruntsource" >&2
   npm install -g grunt-source || fail_gruntsource
 }
 
@@ -31,11 +31,22 @@ function complete_message(){
   log_step 'Have fun!'
 }
 
+function rename_project(){
+  local project_name="$1"
+  log_step "Setting project name to $project_name"
+  sed -i.sed_backup -e "s/new-project/${project_name}/" $file \
+    package.json \
+    html/index.jade \
+    html/partials/header.jade
+  find . -name '*.sed_backup' | xargs rm
+}
+
 function main(){
   [[ `which grunt-source` ]] || install_grunt_source
   create_gruntsource_file
   run_gruntsource_init
+  [[ -n "$1" ]] && rename_project "$1"
   complete_message
 }
 
-main
+main $*
