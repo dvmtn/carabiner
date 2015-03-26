@@ -33,6 +33,7 @@ Development Groove
 Super Important Things
 ----------------------
 - `dist` is intended to be cleaned (as in completely wiped) so files shouldn't be added directly to it. Add them to `data` instead to have them appear in the top level of `dist`.
+- The Sitemap can only be generated if you set the `homepage` key in your `package.json` file.
 - Support for `haml` will eventually be dropped in favour of Jade because of the better partial (includes) rendering options.
 
 Tasks

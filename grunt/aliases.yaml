@@ -14,6 +14,7 @@ build:
   - 'svgmin'
   - 'copy:data'
   - 'manifest'
+  - 'sitemap'
 
 test:
   - 'jasmine'
