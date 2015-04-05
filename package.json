@@ -31,6 +31,7 @@
     "grunt-svgmin": "^2.0.0",
     "load-grunt-config": "^0.16.0",
     "load-grunt-tasks": "^1.0.0",
-    "phantomjs": "1.9.x"
+    "phantomjs": "1.9.x",
+    "grunt-react": "0.12.x"
   }
 }
