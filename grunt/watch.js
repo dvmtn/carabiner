@@ -14,7 +14,11 @@ module.exports = {
       'uglify'
     ],
     options: { spawn: false }
- },
+  },
+  react:{
+    files: ['js/jsx/**/*.jsx'],
+    tasks: ['react']
+  },
   jasmine:{
     files: ['js/test/**/*.js'],
     tasks: [ 'jasmine' ]
