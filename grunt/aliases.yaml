@@ -34,3 +34,7 @@ deploy:
 
 tasks:
   - 'availabletasks'
+
+react:
+  - 'jsx'
+  - 'dev'
