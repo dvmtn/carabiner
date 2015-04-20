@@ -14,7 +14,6 @@ build:
   - 'svgmin'
   - 'copy:data'
   - 'manifest'
-  - 'sitemap'
 
 test:
   - 'jasmine'
@@ -28,6 +27,7 @@ dev:
 
 deploy:
   - 'default'
+  - 'sitemap'
   - 'gh-pages'
   - 'notify:deploy'
   - 'gh-pages-clean'
